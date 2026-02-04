@@ -7,7 +7,7 @@ const products = [
         category: "entradas",
         price: 12,
         description: "6 unidades de choritos a la chalaca.",
-        image: "./images/menu/choritos-chalaca.jpg",
+        image: "./images/menu/choros-chalaca.jpg",
         available: true
     },
     {
@@ -54,7 +54,7 @@ const products = [
         category: "ceviches",
         price: 23,
         description: "Fresco ceviche de toya acompañado de un crocante chicharrón de pota.",
-        image: "./images/menu/ceviche-carretillero.jpg",
+        image: "./images/menu/ceviche-carretillero-de-pescado.jpg",
         available: true
     },
     {
@@ -63,7 +63,7 @@ const products = [
         category: "ceviches",
         price: 20,
         description: "Fresco ceviche de toya acompañado de sarandaja, choclo y camote.",
-        image: "./images/menu/ceviche-clasico.jpg",
+        image: "./images/menu/ceviche-pescado.jpg",
         available: true
     },
     {
@@ -127,6 +127,221 @@ const products = [
         price: 18,
         description: "Finas tiras de pescado sazonado con limón, sal y crema de ají amarillo.",
         image: "./images/menu/tiradito.jpg",
+        available: true
+    },
+
+    // --- Leches ---
+    {
+        id: 25,
+        name: "La marina",
+        category: "leches",
+        price: 20,
+        description: "Leche de tigre con trozos de pescado + arroz con mariscos.",
+        image: "./images/menu/la-marina.jpg",
+        available: true
+    },
+    {
+        id: 26,
+        name: "La oriental",
+        category: "leches",
+        price: 20,
+        description: "Leche de tigre con trozos de pescado + chaufa de mariscos.",
+        image: "./images/menu/la-oriental.jpg",
+        available: true
+    },
+    {
+        id: 27,
+        name: "La carretillera",
+        category: "leches",
+        price: 18,
+        description: "Leche de tigre con trozos de pescado + chicharrón de pota.",
+        image: "./images/menu/la-carretillera.jpg",
+        available: true
+    },
+    {
+        id: 28,
+        name: "Leche de tigre",
+        category: "leches",
+        price: 15,
+        description: "Jugo de limón, trozos de pescado cancha serrana y trozos de camote.",
+        image: "./images/menu/leche-de-tigre.jpg",
+        available: true
+    },
+    {
+        id: 29,
+        name: "Leche de pantera",
+        category: "leches",
+        price: 18,
+        description: "Mezcla de mariscos, jugo de limón y un toque de pisco o cerveza.",
+        image: "./images/menu/leche-de-pantera.jpg",
+        available: true
+    },
+
+    // --- Chicharrones ---
+    {
+        id: 35,
+        name: "Chicharrón de pota",
+        category: "chicharrones",
+        price: 18,
+        description: "Crocante chicharrón de pota acompañado de yuca y salsa criolla.",
+        image: "./images/menu/chicharron-pota.jpg",
+        available: true
+    },
+    {
+        id: 36,
+        name: "Chicharrón mixto",
+        category: "chicharrones",
+        price: 25,
+        description: "Chicharrón de pescado y pota, acompañado de yuca y salsa criolla.",
+        image: "./images/menu/chicharron-mixto.jpg",
+        available: true
+    },
+
+    // --- Duos ---
+    {
+        id: 40,
+        name: "Combinado (Personal)",
+        category: "duos",
+        price: 25,
+        description: "Ceviche de de toya + chicharrón mixto.",
+        image: "./images/menu/duo-marino.jpg",
+        available: true
+    },
+    {
+        id: 41,
+        name: "Combinado (Mediano)",
+        category: "duos",
+        price: 30,
+        description: "Ceviche de de toya + chicharrón mixto.",
+        image: "./images/menu/duo-marino.jpg",
+        available: true
+    },
+    {
+        id: 42,
+        name: "Combinado (Familiar)",
+        category: "duos",
+        price: 40,
+        description: "Ceviche de de toya + chicharrón mixto.",
+        image: "./images/menu/duo-marino.jpg",
+        available: true
+    },
+    {
+        id: 43,
+        name: "Combinado marino (Personal)",
+        category: "duos",
+        price: 25,
+        description: "Ceviche de de toya + arroz con mariscos.",
+        image: "./images/menu/duo-marino-arroz.jpg",
+        available: true
+    },
+    {
+        id: 44,
+        name: "Combinado marino (Mediano)",
+        category: "duos",
+        price: 30,
+        description: "Ceviche de de toya + arroz con mariscos.",
+        image: "./images/menu/duo-marino-arroz.jpg",
+        available: true
+    },
+    {
+        id: 45,
+        name: "Combinado marino (Familiar)",
+        category: "duos",
+        price: 40,
+        description: "Ceviche de de toya + arroz con mariscos.",
+        image: "./images/menu/duo-marino-arroz.jpg",
+        available: true
+    },
+    {
+        id: 46,
+        name: "Cevichaufa (Personal)",
+        category: "duos",
+        price: 25,
+        description: "Ceviche de de toya + chaufa de mariscos.",
+        image: "./images/menu/duo-marino-chaufa.jpg",
+        available: true
+    },
+    {
+        id: 47,
+        name: "Cevichaufa (Mediano)",
+        category: "duos",
+        price: 30,
+        description: "Ceviche de de toya + chaufa de mariscos.",
+        image: "./images/menu/duo-marino-chaufa.jpg",
+        available: true
+    },
+    {
+        id: 48,
+        name: "Cevichaufa (Familiar)",
+        category: "duos",
+        price: 40,
+        description: "Ceviche de de toya + chaufa de mariscos.",
+        image: "./images/menu/duo-marino-chaufa.jpg",
+        available: true
+    },   
+
+    // --- Trios ---
+    {
+        id: 55,
+        name: "Trio con causa (Mediano)",
+        category: "trios",
+        price: 35,
+        description: "Ceviche de toya + causa + chaufa de mariscos.",
+        image: "./images/menu/trio-con-causa.jpg",
+        available: true
+    },
+    {
+        id: 56,
+        name: "Trio con causa (Familiar)",
+        category: "trios",
+        price: 45,
+        description: "Ceviche de toya + causa + chaufa de mariscos.",
+        image: "./images/menu/trio-con-causa.jpg",
+        available: true
+    },
+    {
+        id: 57,
+        name: "Triple marino (Mediano)",
+        category: "trios",
+        price: 30,
+        description: "Ceviche de toya + Chicharrón de pota + chaufa de mariscos.",
+        image: "./images/menu/triple-marino.jpg",
+        available: true
+    },
+    {
+        id: 58,
+        name: "Triple marino (Familiar)",
+        category: "trios",
+        price: 40,
+        description: "Ceviche de toya + Chicharrón de pota + chaufa de mariscos.",
+        image: "./images/menu/triple-marino.jpg",
+        available: true
+    },
+    {
+        id: 59,
+        name: "Trio mixto (Personal)",
+        category: "trios",
+        price: 20,
+        description: "Ceviche de toya + arroz seco + chaufa de mariscos.",
+        image: "./images/menu/trio-mixto.jpg",
+        available: true
+    },
+    {
+        id: 60,
+        name: "Trio mixto (Mediano)",
+        category: "trios",
+        price: 30,
+        description: "Ceviche de toya + arroz seco + chaufa de mariscos.",
+        image: "./images/menu/trio-mixto.jpg",
+        available: true
+    },
+    {
+        id: 61,
+        name: "Trio mixto (Familiar)",
+        category: "trios",
+        price: 40,
+        description: "Ceviche de toya + arroz seco + chaufa de mariscos.",
+        image: "./images/menu/trio-mixto.jpg",
         available: true
     }
 ];
