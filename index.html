@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="images/logo-puerto-28.png">
+    <title>Cevive Cevicheria</title>
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/animations.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-323RJ7FQYW"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-323RJ7FQYW');
+    </script>
+</head>
+<body>
+    <!-- Navbar importado -->
+    <div id="navbar-placeholder"></div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1 class="hero-title">CEVIVE CEVICHERIA</h1>
+            <p class="hero-subtitle">Frescura marina en un ambiente familiar</p>
+            <div class="hero-buttons">
+                <a href="#menu" class="btn btn-primary">Ver nuestra carta</a>
+                <a href="#contact" class="btn btn-outline">Contáctanos</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">Nuestra Historia</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Cevive Cevicheria es una cevichería que nació en 2025 inspirada por la pasión familiar y el gusto por los sabores marinos. Desde entonces, ofrecemos platos frescos y deliciosos, preparados con dedicación y recetas que celebran la tradición y el buen comer.</p>
+                </div>
+                <div class="about-image">
+                    <img src="./images/restaurant-exterior.jpg" alt="Exterior del restaurante" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu" id="menu">
+        <div class="container">
+            <h2 class="section-title">Nuestra Carta</h2>
+            <p class="section-subtitle">Deliciosos platos preparados con ingredientes frescos</p>
+            
+            <div class="menu-filters">
+                <button class="filter-btn active" data-category="ceviches">Ceviches</button>
+                <button class="filter-btn" data-category="arroces">Arroces</button>
+                <button class="filter-btn" data-category="calientes">Calientes</button>
+                <button class="filter-btn" data-category="criollos">Criollos</button>
+                <button class="filter-btn" data-category="duos">Duos</button>
+                <button class="filter-btn" data-category="trios">Trios</button>
+                <button class="filter-btn" data-category="rondas">Rondas</button>
+                <button class="filter-btn" data-category="piqueos">Piqueos</button>
+                <button class="filter-btn" data-category="bebidas">Bebidas</button>
+            </div>
+            
+            <div class="menu-items" id="menu-items">
+                <!-- Los productos se cargarán dinámicamente desde JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Contáctanos</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Vicente de la # 199 chiclayo</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <p><a href="tel:+51928830441">928 830 441</a></p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fab fa-whatsapp"></i>
+                        <p>
+                            <a href="https://wa.me/51928830441?text=Hola%2C%20quiero%20más%20información..." target="_blank">Enviar mensaje por WhatsApp</a>
+                        </p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <p>Lunes a Domingo: 9:00 AM - 5:00 PM</p>
+                    </div>
+                </div>
+                <div class="contact-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3331.6273452018354!2d-79.8389768033383!3d-6.770468090765885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sVicente%20de%20la%20%23%20199%20chiclayo%20!5e0!3m2!1ses-419!2spe!4v1770184868700!5m2!1ses-419!2spe" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer importado -->
+    <div id="footer-placeholder"></div>
+
+    <!-- Floating Cart Button -->
+    <button type="button" class="cart-float" id="cart-btn">
+        <i class="fas fa-shopping-cart"></i>
+        <span class="cart-count" id="cart-count">0</span>
+    </button>
+
+    <!-- Cart Modal -->
+    <div class="cart-overlay" id="cart-overlay"></div>
+    <div class="cart-container" id="cart-modal">
+        <!-- Paso 1: Vista del Carrito -->
+        <div class="cart-step" id="cart-step-1">
+            <div class="cart-header">
+                <h3>Tu Pedido</h3>
+                <button class="close-cart" id="close-cart">&times;</button>
+            </div>
+            <div class="cart-items" id="cart-items">
+                <!-- Los items del carrito se agregarán aquí dinámicamente -->
+            </div>
+            <div class="cart-footer">
+                <div class="cart-total">
+                    <span>Total:</span>
+                    <span id="cart-total">S/0.00</span>
+                </div>
+                <button class="btn btn-primary" id="checkout">Realizar Pedido</button>
+            </div>
+        </div>
+
+        <!-- Paso 2: Formulario de Información -->
+        <div class="cart-step" id="cart-step-2">
+            <div class="cart-header">
+                <button class="back-to-cart" id="back-to-cart">
+                    <i class="fas fa-arrow-left"></i>
+                </button>
+                <h3>Información del Pedido</h3>
+                <button class="close-cart" id="close-cart-2">&times;</button>
+            </div>
+            <!-- Dentro del cart-step-2, modifica el formulario así: -->
+            <div class="customer-info">
+                <form id="order-form">
+                    <div class="form-group">
+                        <label for="customer-name">Nombre *</label>
+                        <input type="text" id="customer-name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="customer-phone">Teléfono *</label>
+                        <input type="tel" id="customer-phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="delivery-type">Tipo de Entrega *</label>
+                        <select id="delivery-type" required>
+                            <option value="">Seleccionar</option>
+                            <option value="pickup">Recoger en el Local</option>
+                            <option value="delivery">Delivery</option>
+                        </select>
+                    </div>
+                    
+                    <!-- Campos para Recoger en Local -->
+                    <div class="delivery-fields" id="pickup-fields">
+                        <div class="form-group">
+                            <label for="delivery-payment">Tipo de Pago *</label>
+                            <div class="radio-group">
+                                <label><input type="radio" name="delivery-payment" value="Efectivo" required> Efectivo</label>
+                                <label><input type="radio" name="delivery-payment" value="Yape"> Yape</label>
+                                <label><input type="radio" name="delivery-payment" value="Plin"> Plin</label>
+                                <label><input type="radio" name="delivery-payment" value="Otro"> Tarjeta</label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="pickup-time">Tiempo estimado para recoger *</label>
+                            <select id="pickup-time" required>
+                                <option value="">Seleccionar</option>
+                                <option value="20-25">25 - 30 minutos</option>
+                                <option value="25-30">30 - 35 minutos</option>
+                                <option value="30-plus">35 minutos a más</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="pickup-notes">Observaciones</label>
+                            <textarea id="pickup-notes" rows="2"></textarea>
+                        </div>
+                    </div>
+                    
+                    <!-- Campos para Delivery -->
+                    <div class="delivery-fields" id="delivery-fields">
+                        <div class="form-group">
+                            <label for="delivery-payment">Tipo de Pago *</label>
+                            <div class="radio-group">
+                                <label><input type="radio" name="delivery-payment" value="Yape" required> Yape</label>
+                            </div>
+                            <div class="info-message" style="font-size: 0.95em; color: #007bff; margin-top: 4px;">Solo se acepta pago por Yape para delivery.</div>
+                        </div>
+                        <div class="form-group">
+                            <label for="delivery-address">Dirección de Entrega *</label>
+                            <input type="text" id="delivery-address">
+                        </div>
+                        <div class="form-group">
+                            <label for="delivery-notes">Observaciones</label>
+                            <textarea id="delivery-notes" rows="2"></textarea>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="form-actions">
+                <button class="btn btn-outline" id="cancel-order">Cancelar</button>
+                <button class="btn btn-primary" id="submit-order">Enviar Pedido</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./scripts/products.js"></script>
+    <script src="./scripts/cart.js"></script>
+    <script src="./scripts/main.js"></script>
+</body>
+</html>
