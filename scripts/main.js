@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (typeof initCart === 'function') {
         initCart();
     }
-});
+}); 
 
 function loadFragments() {
     // Cargar navbar
