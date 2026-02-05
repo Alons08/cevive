@@ -571,6 +571,7 @@ const products = [
     },
 
     // --- De la casa ---
+    /*
     {
         id: 115,
         name: "Pulpo a la parrilla",
@@ -580,6 +581,7 @@ const products = [
         image: "./images/menu/pulpo-anticuchero.jpg",
         available: true
     },
+    */
     {
         id: 116,
         name: "Picante de mariscos",
@@ -982,6 +984,199 @@ const products = [
         price: 16,
         description: "Deliciosa combinación de maracuyá y mango.",
         image: "./images/menu/maracumango.jpg",
+        available: true
+    },
+    {
+        id: 190,
+        name: "Inka Cola (600 ml)",
+        category: "bebidas",
+        price: 4,
+        description: "Gaseosa Inka Cola de 600 ml.",
+        image: "./images/menu/gaseosa-inca-500ml.jpg",
+        available: true
+    },
+    {
+        id: 191,
+        name: "Inka Cola (1.2 LT)",
+        category: "bebidas",
+        price: 8,
+        description: "Gaseosa Inka Cola de 1.2 litros.",
+        image: "./images/menu/gaseosa-inca-1lt.jpg",
+        available: true
+    },
+    {
+        id: 192,
+        name: "Inka Cola (1.5 LT)",
+        category: "bebidas",
+        price: 10,
+        description: "Gaseosa Inka Cola de 1.5 litros.",
+        image: "./images/menu/gaseosa-inca-1-5lt.jpg",
+        available: true
+    },
+    {
+        id: 193,
+        name: "Coca Cola (600 ml)",
+        category: "bebidas",
+        price: 4,
+        description: "Gaseosa Coca Cola de 600 ml.",
+        image: "./images/menu/gaseosa-coca-500ml.jpg",
+        available: true
+    },
+    {
+        id: 194,
+        name: "Coca Cola (1.2 LT)",
+        category: "bebidas",
+        price: 8,
+        description: "Gaseosa Coca Cola de 1.2 litros.",
+        image: "./images/menu/gaseosa-coca-1lt.jpg",
+        available: true
+    },
+    {
+        id: 195,
+        name: "Coca Cola (1.5 LT)",
+        category: "bebidas",
+        price: 10,
+        description: "Gaseosa Coca Cola de 1.5 litros.",
+        image: "./images/menu/gaseosa-coca-1-5lt.jpg",
+        available: true
+    },
+    {
+        id: 196,
+        name: "Gordita (600 ml)",
+        category: "bebidas",
+        price: 6,
+        description: "Refresco Gordita de 600 ml.",
+        image: "./images/menu/gaseosa-gordita.jpg",
+        available: true
+    },
+
+    // --- Frozen ---
+    {
+        id: 200,
+        name: "Maracuyá frozen (Media Jarra)",
+        category: "frozen",
+        price: 8,
+        description: "Refrescante frozen de maracuyá.",
+        image: "./images/menu/maracuya-frozen-media.jpg",
+        available: true
+    },
+    {
+        id: 201,
+        name: "Maracuyá frozen (Jarra)",
+        category: "frozen",
+        price: 14,
+        description: "Refrescante frozen de maracuyá.",
+        image: "./images/menu/maracuya-frozen.jpg",
+        available: true
+    },
+    {
+        id: 202,
+        name: "Maracumango frozen (Media Jarra)",
+        category: "frozen",
+        price: 10,
+        description: "Delicioso frozen de maracuyá y mango.",
+        image: "./images/menu/maracumango-frozen-media.jpg",
+        available: true
+    },
+    {
+        id: 203,
+        name: "Maracumango frozen (Jarra)",
+        category: "frozen",
+        price: 16,
+        description: "Delicioso frozen de maracuyá y mango.",
+        image: "./images/menu/maracumango-frozen.jpg",
+        available: true
+    },
+    {
+        id: 204,
+        name: "Limonada frozen (Media Jarra)",
+        category: "frozen",
+        price: 8,
+        description: "Refrescante frozen de limonada.",
+        image: "./images/menu/limonada-frozen-media.jpg",
+        available: true
+    },
+    {
+        id: 205,
+        name: "Limonada frozen (Jarra)",
+        category: "frozen",
+        price: 13,
+        description: "Refrescante frozen de limonada.",
+        image: "./images/menu/limonada-frozen.jpg",
+        available: true
+    },
+    {
+        id: 206,
+        name: "Fresa frozen (Media Jarra)",
+        category: "frozen",
+        price: 8,
+        description: "Delicioso frozen de fresa.",
+        image: "./images/menu/fresa-frozen-media.jpg",
+        available: true
+    },
+    {
+        id: 207,
+        name: "Fresa frozen (Jarra)",
+        category: "frozen",
+        price: 14,
+        description: "Delicioso frozen de fresa.",
+        image: "./images/menu/fresa-frozen.jpg",
+        available: true
+    },
+    {
+        id: 208,
+        name: "Piña frozen (Media Jarra)",
+        category: "frozen",
+        price: 8,
+        description: "Refrescante frozen de piña.",
+        image: "./images/menu/pina-frozen-media.jpg",
+        available: true
+    },
+    {
+        id: 209,
+        name: "Piña frozen (Jarra)",
+        category: "frozen",
+        price: 14,
+        description: "Refrescante frozen de piña.",
+        image: "./images/menu/pina-frozen.jpg",
+        available: true
+    },
+
+    // --- Cervezas ---
+    {
+        id: 215,
+        name: "Cusqueña Trigo",
+        category: "cervezas",
+        price: 10,
+        description: "Cerveza Cusqueña de trigo.",
+        image: "./images/menu/cerveza-trigo.jpg",
+        available: true
+    },
+    {
+        id: 216,
+        name: "Cusqueña Negra",
+        category: "cervezas",
+        price: 10,
+        description: "Cerveza Cusqueña negra.",
+        image: "./images/menu/cerveza-negra.jpg",
+        available: true
+    },
+    {
+        id: 217,
+        name: "Pilsen",
+        category: "cervezas",
+        price: 9,
+        description: "Cerveza Pilsen.",
+        image: "./images/menu/cerveza-pilsen.jpg",
+        available: true
+    },
+    {
+        id: 218,
+        name: "Cristal",
+        category: "cervezas",
+        price: 8,
+        description: "Cerveza Cristal.",
+        image: "./images/menu/cerveza-cristal.jpg",
         available: true
     }
 ];
