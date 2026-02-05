@@ -343,6 +343,646 @@ const products = [
         description: "Ceviche de toya + arroz seco + chaufa de mariscos.",
         image: "./images/menu/trio-mixto.jpg",
         available: true
+    },
+
+    // --- Rondas ---
+    {
+        id: 70,
+        name: "Ronda marina",
+        category: "rondas",
+        price: 35,
+        description: "Ceviche de toya + arroz con mariscos + chicharrón de pota + chaufa de mariscos.",
+        image: "./images/menu/ronda-marina.jpg",
+        available: true
+    },
+    {
+        id: 71,
+        name: "Ronda mixta",
+        category: "rondas",
+        price: 35,
+        description: "Ceviche de toya + pellejito en sarsa + carne seca + chicharrón de pota",
+        image: "./images/menu/ronda-mixta.jpg",
+        available: true
+    },
+    {
+        id: 72,
+        name: "Ronda norteña",
+        category: "rondas",
+        price: 45,
+        description: "Ceviche de pota + ceviche de toya + pellejito en sarsa + carne seca + 4 tortitas.",
+        image: "./images/menu/ronda-nortena.jpg",
+        available: true
+    },
+    {
+        id: 73,
+        name: "Ronda familiar",
+        category: "rondas",
+        price: 60,
+        description: "Ceviche de toya + causa + pescado a lo macho + chicharrón mixto + pellejito en sarsa.",
+        image: "./images/menu/ronda-familiar.jpg",
+        available: true
+    },
+    {
+        id: 74,
+        name: "Ronda Cevive",
+        category: "rondas",
+        price: 60,
+        description: "Ceviche de toya + picante de mariscos + causa + arroz con mariscos + chaufa de mariscos.",
+        image: "./images/menu/ronda-cevive.jpg",
+        available: true
+    },
+    {
+        id: 75,
+        name: "Ronda chiclayana",
+        category: "rondas",
+        price: 40,
+        description: "Ceviche de toya + arroz con mariscos + picante de mariscos + chaufa de mariscos + leche de tigre.",
+        image: "./images/menu/ronda-chiclayana.jpg",
+        available: true
+    },
+
+    // --- Jaleas ---
+    {
+        id: 80,
+        name: "Jalea mixta",
+        category: "jaleas",
+        price: 35,
+        description: "Filete de toya, salsa criolla, chicharrón mixto.",
+        image: "./images/menu/jalea-mixta.jpg",
+        available: true
+    },
+    {
+        id: 81,
+        name: "Jalea de pota",
+        category: "jaleas",
+        price: 35,
+        description: "Mixtura servido con yucas fritas.",
+        image: "./images/menu/jalea-real.jpg",
+        available: true    },
+
+    // --- Arroces ---
+    {
+        id: 85,
+        name: "Arroz chaufa de mariscos",
+        category: "arroces",
+        price: 30,
+        description: "Arroz chaufa con mixtura de mariscos frescos al wok.",
+        image: "./images/menu/arroz-chaufa-mariscos.jpg",
+        available: true
+    },
+    {
+        id: 86,
+        name: "Arroz chaufa de pollo",
+        category: "arroces",
+        price: 20,
+        description: "Arroz chaufa con pollo salteado al wok.",
+        image: "./images/menu/arroz-chaufa-pollo.jpg",
+        available: true
+    },
+    {
+        id: 87,
+        name: "Arroz con mariscos",
+        category: "arroces",
+        price: 30,
+        description: "Arroz risotado con mariscos en salsa especial.",
+        image: "./images/menu/arroz-con-mariscos.jpg",
+        available: true
+    },
+    {
+        id: 88,
+        name: "Arroz salvaje",
+        category: "arroces",
+        price: 33,
+        description: "Arroz con mariscos, cecina y chorizo al estilo selvático.",
+        image: "./images/menu/arroz-salvaje.jpg",
+        available: true
+    },
+    {
+        id: 89,
+        name: "Arroz chaufa Cevive",
+        category: "arroces",
+        price: 35,
+        description: "Arroz chaufa especial de la casa con mariscos premium.",
+        image: "./images/menu/arroz-chaufa-cevive.jpg",
+        available: true
+    },
+    {
+        id: 90,
+        name: "Chaufa amazónico",
+        category: "arroces",
+        price: 25,
+        description: "Arroz chaufa con cecina, chorizo y plátano frito.",
+        image: "./images/menu/chaufa-amazonico.jpg",
+        available: true
+    },
+
+    // --- Criollos ---
+    {
+        id: 95,
+        name: "Cabrito a la norteña",
+        category: "criollos",
+        price: 15,
+        description: "Se sirve acompañado con arroz blanco, frijoles y yuca sancochada.",
+        image: "./images/menu/cabrito-norteno.jpg",
+        available: true
+    },
+    {
+        id: 96,
+        name: "Arroz con pato",
+        category: "criollos",
+        price: 18,
+        description: "Clásico plato norteño preparado con piezas de pato doradas. Se sirve con sarza criolla.",
+        image: "./images/menu/arroz-con-pato.jpg",
+        available: true
+    },
+    {
+        id: 97,
+        name: "Frito norteño",
+        category: "criollos",
+        price: 15,
+        description: "Se sirve acompañado con yucas, camote y sarza criolla.",
+        image: "./images/menu/frito-norteno.jpg",
+        available: true
+    },
+    {
+        id: 98,
+        name: "Causa limeña",
+        category: "criollos",
+        price: 20,
+        description: "Puré de papa amarilla con ají amarilla, limón, rellena de pollo, palta y mayonesa.",
+        image: "./images/menu/causa-limena.jpg",
+        available: true
+    },
+
+    // --- Enteros ---
+    {
+        id: 105,
+        name: "Cabrilla frita",
+        category: "enteros",
+        price: 30,
+        description: "Acompañada de arroz blanco, yucas fritas y salsa chalaca.",
+        image: "./images/menu/cabrilla-frita.jpg",
+        available: true
+    },
+    {
+        id: 106,
+        name: "Cabrilla a lo macho",
+        category: "enteros",
+        price: 40,
+        description: "Cubierta con salsa de mariscos con un toque de picar.",
+        image: "./images/menu/cabrilla-macho.jpg",
+        available: true
+    },
+    {
+        id: 107,
+        name: "Sudado de cabrilla (Personal)",
+        category: "enteros",
+        price: 30,
+        description: "Cabrilla al vapor con verduras en salsa especial.",
+        image: "./images/menu/sudado-cabrilla.jpg",
+        available: true
+    },
+    {
+        id: 108,
+        name: "Sudado de cabrilla (Familiar)",
+        category: "enteros",
+        price: 40,
+        description: "Cabrilla al vapor con verduras en salsa especial.",
+        image: "./images/menu/sudado-cabrilla.jpg",
+        available: true
+    },
+    {
+        id: 109,
+        name: "Parihuela de cabrilla (Personal)",
+        category: "enteros",
+        price: 35,
+        description: "Sopa de mariscos con cabrilla y especies norteñas.",
+        image: "./images/menu/parihuela.jpg",
+        available: true
+    },
+    {
+        id: 110,
+        name: "Parihuela de cabrilla (Familiar)",
+        category: "enteros",
+        price: 45,
+        description: "Sopa de mariscos con cabrilla y especies norteñas.",
+        image: "./images/menu/parihuela.jpg",
+        available: true
+    },
+
+    // --- De la casa ---
+    {
+        id: 115,
+        name: "Pulpo a la parrilla",
+        category: "delacasa",
+        price: 25,
+        description: "Pulpo fresco a la parrilla con salsa especial.",
+        image: "./images/menu/pulpo-anticuchero.jpg",
+        available: true
+    },
+    {
+        id: 116,
+        name: "Picante de mariscos",
+        category: "delacasa",
+        price: 25,
+        description: "Mixtura de mariscos en salsa picante.",
+        image: "./images/menu/picante-mariscos.jpg",
+        available: true
+    },
+    {
+        id: 117,
+        name: "Pescado a lo macho",
+        category: "delacasa",
+        price: 30,
+        description: "Filete de pescado cubierto con salsa de mariscos.",
+        image: "./images/menu/pescado-macho.jpg",
+        available: true
+    },
+    {
+        id: 118,
+        name: "Tortilla de langostinos",
+        category: "delacasa",
+        price: 25,
+        description: "Tortilla de huevos con langostinos frescos.",
+        image: "./images/menu/tortilla-langostinos.jpg",
+        available: true
+    },
+    {
+        id: 119,
+        name: "Bistec a lo pobre",
+        category: "delacasa",
+        price: 20,
+        description: "Bistec con huevo frito, arroz, papas fritas y plátano.",
+        image: "./images/menu/bistec-a-lo-pobre.jpg",
+        available: true
+    },
+    {
+        id: 120,
+        name: "Chuleta a la parrilla",
+        category: "delacasa",
+        price: 17,
+        description: "Chuleta de cerdo jugosa a la parrilla.",
+        image: "./images/menu/chuleta-parrilla.jpg",
+        available: true
+    },
+    {
+        id: 121,
+        name: "Churrasco a la parrilla",
+        category: "delacasa",
+        price: 18,
+        description: "Churrasco de res a la parrilla con guarniciones.",
+        image: "./images/menu/churrasco-parrilla.jpg",
+        available: true
+    },
+    {
+        id: 122,
+        name: "Pellejito en sarsa",
+        category: "delacasa",
+        price: 23,
+        description: "Pellejito de cerdo en salsa criolla norteña.",
+        image: "./images/menu/pellejito-sarsa.jpg",
+        available: true
+    },
+    {
+        id: 123,
+        name: "Lomito saltado",
+        category: "delacasa",
+        price: 20,
+        description: "Lomito saltado al wok con papas fritas y arroz.",
+        image: "./images/menu/lomito-saltado.jpg",
+        available: true
+    },
+    {
+        id: 124,
+        name: "Pollito a la plancha",
+        category: "delacasa",
+        price: 15,
+        description: "Pechuga de pollo jugosa a la plancha.",
+        image: "./images/menu/pollito-plancha.jpg",
+        available: true
+    },
+
+    // --- Fuentes ---
+    {
+        id: 130,
+        name: "Ceviche de pota (Mediano)",
+        category: "fuentes",
+        price: 50,
+        description: "Fuente de ceviche de pota fresca para compartir.",
+        image: "./images/menu/fuente-ceviche-pota.jpg",
+        available: true
+    },
+    {
+        id: 131,
+        name: "Ceviche de pota (Familiar)",
+        category: "fuentes",
+        price: 80,
+        description: "Fuente de ceviche de pota fresca para compartir.",
+        image: "./images/menu/fuente-ceviche-pota.jpg",
+        available: true
+    },
+    {
+        id: 132,
+        name: "Ceviche mixto (Mediano)",
+        category: "fuentes",
+        price: 60,
+        description: "Fuente de ceviche mixto con variedad de mariscos.",
+        image: "./images/menu/fuente-ceviche-mixto.jpg",
+        available: true
+    },
+    {
+        id: 133,
+        name: "Ceviche mixto (Familiar)",
+        category: "fuentes",
+        price: 90,
+        description: "Fuente de ceviche mixto con variedad de mariscos.",
+        image: "./images/menu/fuente-ceviche-mixto.jpg",
+        available: true
+    },
+    {
+        id: 134,
+        name: "Arroz con mariscos (Mediano)",
+        category: "fuentes",
+        price: 60,
+        description: "Fuente de arroz con mariscos para compartir.",
+        image: "./images/menu/fuente-arroz-mariscos.jpg",
+        available: true
+    },
+    {
+        id: 135,
+        name: "Arroz con mariscos (Familiar)",
+        category: "fuentes",
+        price: 90,
+        description: "Fuente de arroz con mariscos para compartir.",
+        image: "./images/menu/fuente-arroz-mariscos.jpg",
+        available: true
+    },
+    {
+        id: 136,
+        name: "Chaufa de mariscos (Mediano)",
+        category: "fuentes",
+        price: 60,
+        description: "Fuente de chaufa de mariscos al wok.",
+        image: "./images/menu/fuente-chaufa-mariscos.jpg",
+        available: true
+    },
+    {
+        id: 137,
+        name: "Chaufa de mariscos (Familiar)",
+        category: "fuentes",
+        price: 90,
+        description: "Fuente de chaufa de mariscos al wok.",
+        image: "./images/menu/fuente-chaufa-mariscos.jpg",
+        available: true
+    },
+    {
+        id: 138,
+        name: "Carne seca (Mediano)",
+        category: "fuentes",
+        price: 50,
+        description: "Fuente de carne seca norteña para compartir.",
+        image: "./images/menu/fuente-carne-seca.jpg",
+        available: true
+    },
+    {
+        id: 139,
+        name: "Carne seca (Familiar)",
+        category: "fuentes",
+        price: 80,
+        description: "Fuente de carne seca norteña para compartir.",
+        image: "./images/menu/fuente-carne-seca.jpg",
+        available: true
+    },
+    {
+        id: 140,
+        name: "Pellejito en sarsa (Mediano)",
+        category: "fuentes",
+        price: 40,
+        description: "Fuente de pellejito en salsa criolla.",
+        image: "./images/menu/fuente-pellejito-sarsa.jpg",
+        available: true
+    },
+    {
+        id: 141,
+        name: "Pellejito en sarsa (Familiar)",
+        category: "fuentes",
+        price: 70,
+        description: "Fuente de pellejito en salsa criolla.",
+        image: "./images/menu/fuente-pellejito-sarsa.jpg",
+        available: true
+    },
+
+    // --- Guarniciones ---
+    {
+        id: 150,
+        name: "Arroz blanco",
+        category: "guarniciones",
+        price: 4,
+        description: "Porción de arroz blanco.",
+        image: "./images/menu/arroz-blanco.jpg",
+        available: true
+    },
+    {
+        id: 151,
+        name: "Papas fritas",
+        category: "guarniciones",
+        price: 7,
+        description: "Porción de crocantes papas fritas.",
+        image: "./images/menu/papas-fritas.jpg",
+        available: true
+    },
+    {
+        id: 152,
+        name: "Plátanos fritos",
+        category: "guarniciones",
+        price: 4,
+        description: "Porción de riquísimos plátanos fritos.",
+        image: "./images/menu/platanos-fritos.jpg",
+        available: true
+    },
+    {
+        id: 153,
+        name: "Ensalada fresca",
+        category: "guarniciones",
+        price: 5,
+        description: "Porción de una saludable ensalada fresca.",
+        image: "./images/menu/ensalada-fresca.jpg",
+        available: true
+    },
+    {
+        id: 154,
+        name: "Yucas",
+        category: "guarniciones",
+        price: 4,
+        description: "Porción de riquísimas yucas.",
+        image: "./images/menu/yucas.jpg",
+        available: true
+    },
+
+    // --- Jugos ---
+    {
+        id: 160,
+        name: "Jugo de piña (Media Jarra)",
+        category: "jugos",
+        price: 7,
+        description: "Refrescante jugo natural de piña.",
+        image: "./images/menu/jugo-pina-media.jpg",
+        available: true
+    },
+    {
+        id: 161,
+        name: "Jugo de piña (Jarra)",
+        category: "jugos",
+        price: 13,
+        description: "Refrescante jugo natural de piña.",
+        image: "./images/menu/jugo-pina.jpg",
+        available: true
+    },
+    {
+        id: 162,
+        name: "Jugo de fresa (Media Jarra)",
+        category: "jugos",
+        price: 7,
+        description: "Delicioso jugo natural de fresa.",
+        image: "./images/menu/jugo-fresa-media.jpg",
+        available: true
+    },
+    {
+        id: 163,
+        name: "Jugo de fresa (Jarra)",
+        category: "jugos",
+        price: 13,
+        description: "Delicioso jugo natural de fresa.",
+        image: "./images/menu/jugo-fresa.jpg",
+        available: true
+    },
+    {
+        id: 164,
+        name: "Jugo surtido (Media Jarra)",
+        category: "jugos",
+        price: 9,
+        description: "Combinación de frutas frescas.",
+        image: "./images/menu/jugo-surtido-media.jpg",
+        available: true
+    },
+    {
+        id: 165,
+        name: "Jugo surtido (Jarra)",
+        category: "jugos",
+        price: 16,
+        description: "Combinación de frutas frescas.",
+        image: "./images/menu/jugo-surtido.jpg",
+        available: true
+    },
+    {
+        id: 166,
+        name: "Jugo especial (Media Jarra)",
+        category: "jugos",
+        price: 12,
+        description: "Jugo especial de la casa.",
+        image: "./images/menu/jugo-especial-media.jpg",
+        available: true
+    },
+    {
+        id: 167,
+        name: "Jugo especial (Jarra)",
+        category: "jugos",
+        price: 18,
+        description: "Jugo especial de la casa.",
+        image: "./images/menu/jugo-especial.jpg",
+        available: true
+    },
+
+    // --- Bebidas ---
+    {
+        id: 175,
+        name: "Limonada (Media Jarra)",
+        category: "bebidas",
+        price: 6,
+        description: "Refrescante limonada natural.",
+        image: "./images/menu/limonada-media.jpg",
+        available: true
+    },
+    {
+        id: 176,
+        name: "Limonada (Jarra)",
+        category: "bebidas",
+        price: 10,
+        description: "Refrescante limonada natural.",
+        image: "./images/menu/limonada.jpg",
+        available: true
+    },
+    {
+        id: 177,
+        name: "Maracuyá (Media Jarra)",
+        category: "bebidas",
+        price: 7,
+        description: "Exquisito refresco de maracuyá.",
+        image: "./images/menu/maracuya-media.jpg",
+        available: true
+    },
+    {
+        id: 178,
+        name: "Maracuyá (Jarra)",
+        category: "bebidas",
+        price: 12,
+        description: "Exquisito refresco de maracuyá.",
+        image: "./images/menu/maracuya.jpg",
+        available: true
+    },
+    {
+        id: 179,
+        name: "Chicha morada (Media Jarra)",
+        category: "bebidas",
+        price: 6,
+        description: "Tradicional chicha morada peruana.",
+        image: "./images/menu/chicha-morada-media.jpg",
+        available: true
+    },
+    {
+        id: 180,
+        name: "Chicha morada (Jarra)",
+        category: "bebidas",
+        price: 10,
+        description: "Tradicional chicha morada peruana.",
+        image: "./images/menu/chicha-morada.jpg",
+        available: true
+    },
+    {
+        id: 181,
+        name: "Chicha de jora (Media Jarra)",
+        category: "bebidas",
+        price: 6,
+        description: "Auténtica chicha de jora norteña.",
+        image: "./images/menu/chicha-jora-media.jpg",
+        available: true
+    },
+    {
+        id: 182,
+        name: "Chicha de jora (Jarra)",
+        category: "bebidas",
+        price: 10,
+        description: "Auténtica chicha de jora norteña.",
+        image: "./images/menu/chicha-jora.jpg",
+        available: true
+    },
+    {
+        id: 183,
+        name: "Maracumango (Media Jarra)",
+        category: "bebidas",
+        price: 9,
+        description: "Deliciosa combinación de maracuyá y mango.",
+        image: "./images/menu/maracumango-media.jpg",
+        available: true
+    },
+    {
+        id: 184,
+        name: "Maracumango (Jarra)",
+        category: "bebidas",
+        price: 16,
+        description: "Deliciosa combinación de maracuyá y mango.",
+        image: "./images/menu/maracumango.jpg",
+        available: true
     }
 ];
 
