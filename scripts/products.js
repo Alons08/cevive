@@ -53,7 +53,7 @@ const products = [
         name: "Ceviche carretillero",
         category: "ceviches",
         price: 23,
-        description: "Fresco ceviche de toya acompañado de un crocante chicharrón de pota.",
+        description: "Fresco ceviche de toyo acompañado de un crocante chicharrón de pota.",
         image: "./images/menu/ceviche-carretillero-de-pescado.jpg",
         available: true
     },
@@ -62,7 +62,7 @@ const products = [
         name: "Ceviche clásico",
         category: "ceviches",
         price: 20,
-        description: "Fresco ceviche de toya acompañado de sarandaja, choclo y camote.",
+        description: "Fresco ceviche de toyo acompañado de sarandaja, choclo y camote.",
         image: "./images/menu/ceviche-pescado.jpg",
         available: true
     },
@@ -71,7 +71,7 @@ const products = [
         name: "Ceviche norteño",
         category: "ceviches",
         price: 25,
-        description: "Fresco ceviche de toya, zarándaja, choclo, camote y 2 tortitas.",
+        description: "Fresco ceviche de toyo, zarándaja, choclo, camote y 2 tortitas.",
         image: "./images/menu/ceviche-norteno.jpg",
         available: true
     },
@@ -80,7 +80,7 @@ const products = [
         name: "Ceviche mixto",
         category: "ceviches",
         price: 30,
-        description: "Ceviche de toya, pulpo, langostinos, macha, conchas de avanico y cangrejo.",
+        description: "Ceviche de toyo, pulpo, langostinos, macha, conchas de avanico y cangrejo.",
         image: "./images/menu/ceviche-mixto.jpg",
         available: true
     },
@@ -89,7 +89,7 @@ const products = [
         name: "Ceviche Cevive",
         category: "ceviches",
         price: 40,
-        description: "Ceviche de toya, mixtura de mariscos, cangrejo y tortita de choclo.",
+        description: "Ceviche de toyo, mixtura de mariscos, cangrejo y tortita de choclo.",
         image: "./images/menu/ceviche-cevive.jpg",
         available: true
     },
@@ -203,7 +203,7 @@ const products = [
         name: "Combinado (Personal)",
         category: "duos",
         price: 25,
-        description: "Ceviche de de toya + chicharrón mixto.",
+        description: "Ceviche de de toyo + chicharrón mixto.",
         image: "./images/menu/duo-marino.jpg",
         available: true
     },
@@ -212,7 +212,7 @@ const products = [
         name: "Combinado (Mediano)",
         category: "duos",
         price: 30,
-        description: "Ceviche de de toya + chicharrón mixto.",
+        description: "Ceviche de de toyo + chicharrón mixto.",
         image: "./images/menu/duo-marino.jpg",
         available: true
     },
@@ -221,7 +221,7 @@ const products = [
         name: "Combinado (Familiar)",
         category: "duos",
         price: 40,
-        description: "Ceviche de de toya + chicharrón mixto.",
+        description: "Ceviche de de toyo + chicharrón mixto.",
         image: "./images/menu/duo-marino.jpg",
         available: true
     },
@@ -230,7 +230,7 @@ const products = [
         name: "Combinado marino (Personal)",
         category: "duos",
         price: 25,
-        description: "Ceviche de de toya + arroz con mariscos.",
+        description: "Ceviche de de toyo + arroz con mariscos.",
         image: "./images/menu/duo-marino-arroz.jpg",
         available: true
     },
@@ -239,7 +239,7 @@ const products = [
         name: "Combinado marino (Mediano)",
         category: "duos",
         price: 30,
-        description: "Ceviche de de toya + arroz con mariscos.",
+        description: "Ceviche de de toyo + arroz con mariscos.",
         image: "./images/menu/duo-marino-arroz.jpg",
         available: true
     },
@@ -248,7 +248,7 @@ const products = [
         name: "Combinado marino (Familiar)",
         category: "duos",
         price: 40,
-        description: "Ceviche de de toya + arroz con mariscos.",
+        description: "Ceviche de de toyo + arroz con mariscos.",
         image: "./images/menu/duo-marino-arroz.jpg",
         available: true
     },
@@ -257,7 +257,7 @@ const products = [
         name: "Cevichaufa (Personal)",
         category: "duos",
         price: 25,
-        description: "Ceviche de de toya + chaufa de mariscos.",
+        description: "Ceviche de de toyo + chaufa de mariscos.",
         image: "./images/menu/duo-marino-chaufa.jpg",
         available: true
     },
@@ -266,7 +266,7 @@ const products = [
         name: "Cevichaufa (Mediano)",
         category: "duos",
         price: 30,
-        description: "Ceviche de de toya + chaufa de mariscos.",
+        description: "Ceviche de de toyo + chaufa de mariscos.",
         image: "./images/menu/duo-marino-chaufa.jpg",
         available: true
     },
@@ -275,7 +275,7 @@ const products = [
         name: "Cevichaufa (Familiar)",
         category: "duos",
         price: 40,
-        description: "Ceviche de de toya + chaufa de mariscos.",
+        description: "Ceviche de de toyo + chaufa de mariscos.",
         image: "./images/menu/duo-marino-chaufa.jpg",
         available: true
     },   
@@ -286,7 +286,7 @@ const products = [
         name: "Trio con causa (Mediano)",
         category: "trios",
         price: 35,
-        description: "Ceviche de toya + causa + chaufa de mariscos.",
+        description: "Ceviche de toyo + causa + chaufa de mariscos.",
         image: "./images/menu/trio-con-causa.jpg",
         available: true
     },
@@ -295,7 +295,7 @@ const products = [
         name: "Trio con causa (Familiar)",
         category: "trios",
         price: 45,
-        description: "Ceviche de toya + causa + chaufa de mariscos.",
+        description: "Ceviche de toyo + causa + chaufa de mariscos.",
         image: "./images/menu/trio-con-causa.jpg",
         available: true
     },
@@ -304,7 +304,7 @@ const products = [
         name: "Triple marino (Mediano)",
         category: "trios",
         price: 30,
-        description: "Ceviche de toya + Chicharrón de pota + chaufa de mariscos.",
+        description: "Ceviche de toyo + Chicharrón de pota + chaufa de mariscos.",
         image: "./images/menu/triple-marino.jpg",
         available: true
     },
@@ -313,7 +313,7 @@ const products = [
         name: "Triple marino (Familiar)",
         category: "trios",
         price: 40,
-        description: "Ceviche de toya + Chicharrón de pota + chaufa de mariscos.",
+        description: "Ceviche de toyo + Chicharrón de pota + chaufa de mariscos.",
         image: "./images/menu/triple-marino.jpg",
         available: true
     },
@@ -322,7 +322,7 @@ const products = [
         name: "Trio mixto (Personal)",
         category: "trios",
         price: 20,
-        description: "Ceviche de toya + arroz seco + chaufa de mariscos.",
+        description: "Ceviche de toyo + arroz seco + chaufa de mariscos.",
         image: "./images/menu/trio-mixto.jpg",
         available: true
     },
@@ -331,7 +331,7 @@ const products = [
         name: "Trio mixto (Mediano)",
         category: "trios",
         price: 30,
-        description: "Ceviche de toya + arroz seco + chaufa de mariscos.",
+        description: "Ceviche de toyo + arroz seco + chaufa de mariscos.",
         image: "./images/menu/trio-mixto.jpg",
         available: true
     },
@@ -340,7 +340,7 @@ const products = [
         name: "Trio mixto (Familiar)",
         category: "trios",
         price: 40,
-        description: "Ceviche de toya + arroz seco + chaufa de mariscos.",
+        description: "Ceviche de toyo + arroz seco + chaufa de mariscos.",
         image: "./images/menu/trio-mixto.jpg",
         available: true
     },
@@ -351,7 +351,7 @@ const products = [
         name: "Ronda marina",
         category: "rondas",
         price: 35,
-        description: "Ceviche de toya + arroz con mariscos + chicharrón de pota + chaufa de mariscos.",
+        description: "Ceviche de toyo + arroz con mariscos + chicharrón de pota + chaufa de mariscos.",
         image: "./images/menu/ronda-marina.jpg",
         available: true
     },
@@ -360,7 +360,7 @@ const products = [
         name: "Ronda mixta",
         category: "rondas",
         price: 35,
-        description: "Ceviche de toya + pellejito en sarsa + carne seca + chicharrón de pota",
+        description: "Ceviche de toyo + pellejito en sarsa + carne seca + chicharrón de pota",
         image: "./images/menu/ronda-mixta.jpg",
         available: true
     },
@@ -369,7 +369,7 @@ const products = [
         name: "Ronda norteña",
         category: "rondas",
         price: 45,
-        description: "Ceviche de pota + ceviche de toya + pellejito en sarsa + carne seca + 4 tortitas.",
+        description: "Ceviche de pota + ceviche de toyo + pellejito en sarsa + carne seca + 4 tortitas.",
         image: "./images/menu/ronda-nortena.jpg",
         available: true
     },
@@ -378,7 +378,7 @@ const products = [
         name: "Ronda familiar",
         category: "rondas",
         price: 60,
-        description: "Ceviche de toya + causa + pescado a lo macho + chicharrón mixto + pellejito en sarsa.",
+        description: "Ceviche de toyo + causa + pescado a lo macho + chicharrón mixto + pellejito en sarsa.",
         image: "./images/menu/ronda-familiar.jpg",
         available: true
     },
@@ -387,7 +387,7 @@ const products = [
         name: "Ronda Cevive",
         category: "rondas",
         price: 60,
-        description: "Ceviche de toya + picante de mariscos + causa + arroz con mariscos + chaufa de mariscos.",
+        description: "Ceviche de toyo + picante de mariscos + causa + arroz con mariscos + chaufa de mariscos.",
         image: "./images/menu/ronda-cevive.jpg",
         available: true
     },
@@ -396,7 +396,7 @@ const products = [
         name: "Ronda chiclayana",
         category: "rondas",
         price: 40,
-        description: "Ceviche de toya + arroz con mariscos + picante de mariscos + chaufa de mariscos + leche de tigre.",
+        description: "Ceviche de toyo + arroz con mariscos + picante de mariscos + chaufa de mariscos + leche de tigre.",
         image: "./images/menu/ronda-chiclayana.jpg",
         available: true
     },
@@ -407,7 +407,7 @@ const products = [
         name: "Jalea mixta",
         category: "jaleas",
         price: 35,
-        description: "Filete de toya, salsa criolla, chicharrón mixto.",
+        description: "Filete de toyo, salsa criolla, chicharrón mixto.",
         image: "./images/menu/jalea-mixta.jpg",
         available: true
     },
